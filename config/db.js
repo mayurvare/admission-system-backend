@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://admin:admin@cluster0.m4jytcw.mongodb.net/');
+mongoose.connect('mongodb+srv://admin:12345678910@cluster0.md2h7.mongodb.net/');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
